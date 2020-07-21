@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "498550652253",
+    "firebase_url": "https://jaki-927fc.firebaseio.com",
+    "project_id": "jaki-927fc",
+    "storage_bucket": "jaki-927fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498550652253:android:35c6b6e1c18b9768d27cb4",
+        "android_client_info": {
+          "package_name": "com.example.jaki_kapten"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498550652253-etqlfbmi35ju4si7cj6a2erlv1eppmfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMe_CAlDG2KTp2GqF8r4Mkho-IlnTNULA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498550652253-etqlfbmi35ju4si7cj6a2erlv1eppmfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">498550652253-etqlfbmi35ju4si7cj6a2erlv1eppmfb.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://jaki-927fc.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">498550652253</string>
+    <string name="google_api_key" translatable="false">AIzaSyCMe_CAlDG2KTp2GqF8r4Mkho-IlnTNULA</string>
+    <string name="google_app_id" translatable="false">1:498550652253:android:35c6b6e1c18b9768d27cb4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCMe_CAlDG2KTp2GqF8r4Mkho-IlnTNULA</string>
+    <string name="google_storage_bucket" translatable="false">jaki-927fc.appspot.com</string>
+    <string name="project_id" translatable="false">jaki-927fc</string>
+</resources>

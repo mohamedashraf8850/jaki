@@ -1,0 +1,253 @@
+{\rtf1\fbidis\ansi\ansicpg1256\deff0\deflang3073{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\ltrpar\sa200\sl276\slmult1\qc\lang9\ul\b\f0\fs48 JAKI APPLICATION APIs\par
+\pard\ltrpar\sa200\sl240\slmult1\ulnone\b0\fs28\line\b\i\fs44 Main Domain : \line\fs32{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/android/index.php/web_service"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/android/index.php/web_service}}}\f0\fs32\line\b0\i0\fs28\line\b 1- do_sign_up:\b0    ( POST METHOD )\ul\b\fs48\par
+\ulnone\b0\fs28 Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - name\par
+- username\par
+- email\par
+- mobile\par
+- password\par
+- isdevice\par
+- gender\par
+- dob\par
+- facebook_id\par
+- twitter_id\par
+- image  ( File )\par
+- devid\par
+- userCode\line\par
+\par
+\pard\ltrpar\sa200\sl240\slmult1\b\fs28 2- fetch_cab_details :\b0    ( GET METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - timetype\par
+- transfertype\par
+\pard\ltrpar\sa200\sl276\slmult1\fs28\par
+\pard\ltrpar\sa200\sl240\slmult1\b 3- trip_detail : \b0    ( GET METHOD )\ul\b\fs48\par
+\ulnone\b0\fs28 Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - booking_id\par
+\pard\ltrpar\sa200\sl276\slmult1\fs28\line\pard\ltrpar\sa200\sl240\slmult1\b 4- cancel_trip:\b0    ( GET METHOD )\ul\b\fs48\par
+\ulnone\b0\fs28 Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - booking_id\par
+\pard\ltrpar\sa200\sl276\slmult1\fs28\par
+\pard\ltrpar\sa200\sl240\slmult1\b 5- driver_accept_trip: \b0   ( GET METHOD )\ul\b\fs48\par
+\ulnone\b0\fs28 Parameters \fs32 : \line\fs24 - booking_id\par
+- driver_id\line\line\fs28 6- driver_status:    \fs24\line\line\line\fs28 7- \b driver_status_update\b0 :   ( GET METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - did  ( Driver ID )\par
+- sid  ( Status ID )\par
+\pard\ltrpar\sa200\sl240\slmult1\line\line\fs28 8- \b driver_reject_trip\b0 :   ( GET METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - booking_id\par
+- driver_id\line\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 9- driver_arrived_trip: \b0   ( GET METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - booking_id\par
+- driver_id\line\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 10- driver_on_trip:\b0    ( GET METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - booking_id\par
+- driver_id\line\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 11- driver_completed_trip:   \b0 ( GET METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - booking_id\par
+- driver_id\par
+- final_amount\par
+- delay_reason\par
+\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 12- driver_unavailable_cancelled_book:   \b0 ( GET METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - booking_id\par
+\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 13- user_reject_trip:   \b0 ( GET METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - booking_id\par
+- uid\line\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 14- load_trips:\b0    ( POST METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - user_id\par
+- off\line\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 15- load_trips21july2016:   \b0 ( GET METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - user_id\par
+- off\line\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 16- filter_book :    \b0  ( POST METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - filter\par
+- user_id\par
+- off\line\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 17- driver_filter_book :     \b0 ( GET METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - filter\par
+- driver_id\par
+- off\line\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 18- load_card_rate:     \b0 ( GET METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - transfertype\line\line\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 19- change_password: \b0     ( POST METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - uid\par
+- password\line\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 20- driver_change_password :   \b0 ( POST METHOD )\b     \b0\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - password\par
+- did  ( Driver ID )\line\line\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 21- profile_edit :  \b0 ( POST METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - username\par
+- email\par
+- mobile\par
+- name\par
+- gender\par
+- dob\par
+- isdevice\par
+- uid\line - image ( FILE )\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 22- \fs24 driver_profile_edit\fs28  :  \b0 ( POST METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - username\par
+- email\par
+- phone\par
+- password\par
+- name\par
+- license_no\par
+- Lieasence_Expiry_Date\par
+- license_plate\par
+- Insurance\par
+- Seating_Capacity\par
+- Car_Model\par
+- Car_Make\par
+- Car_no\par
+- car_type\par
+- address\par
+- gender\par
+- dob\par
+- image   ( FILE )\par
+- uid\line\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 23- \fs24 forgot_password\fs28 :  \b0 ( GET METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - email\line\line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 24- \fs24 driver_forgot_password\fs28 :  \b0 ( GET METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - email\line\line\b 25- fetch_booking_cronjob :  \b0\line\line\b 26 - fetch_driver_cronjob :\b0  \line\line\pard\ltrpar\sa200\sl240\slmult1\b\fs28 27- \fs24 book_cab \fs28 :  \b0 ( POST METHOD )\par
+Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 user_id\par
+username\par
+pickup_date\par
+pickup_time\par
+drop_area\par
+pickup_area\par
+time_type\par
+amount\par
+tripPriceAfter\par
+tripCode\par
+km\par
+pickup_lat\par
+pickup_longs\par
+drop_lat\par
+drop_longs\par
+isdevice\par
+approx_time\par
+flag\par
+taxi_type\par
+taxi_id\par
+purpose\par
+comment\par
+person\par
+payment_type\par
+transaction_id\par
+book_create_date_time\line\line\line\pard\ltrpar\sa200\sl240\slmult1\fs28 28- \b\fs24 settings :\b0\fs28   \par
+\par
+29- \b\fs24 driver_login:\b0\fs28    ( GET METHOD )\par
+Parameters:\line\pard\ltrpar\sl240\slmult1\fs24 - username\par
+\pard\ltrpar\sa200\sl240\slmult1 - password\par
+\pard\ltrpar\sl240\slmult1 - devid\par
+\pard\ltrpar\sa200\sl240\slmult1 - Lang\par
+-Devicetype\line\fs28\par
+\pard\ltrpar\sl240\slmult1\b 30 - updateDriverDeviceId: \b0 ( POST METHOD )\line\line Parameters : \line driver_id\par
+devid\par
+token\fs24\line\line\par
+\line\b 31 - updateUserDeviceId : \b0 ( GET METHOD )\line\line Parameters : \line user_id\par
+devid\par
+token\line\line\line\b 32- car_type : \b0 ( GET METHOD )\line\line Parameters : \line driver_id\par
+token\line\line\line\b 33- driver_sign_up:  \b0 ( POST METHOD )\line surname\par
+iban\par
+bank_name\par
+trip_options\par
+username\par
+email\par
+phone\par
+password\par
+name\par
+license_no\par
+Lieasence_Expiry_Date\par
+license_plate\par
+Insurance\par
+vehicleSequenceNumber\par
+Seating_Capacity\par
+Car_Model\par
+Car_Make\par
+car_no\par
+car_type\par
+address\par
+City\par
+gender\par
+dob\par
+national_id\par
+hijri_date\par
+stc_pay\par
+image\par
+car_image\par
+devid\par
+userCode\line\line\line\line\b 34- driver_bookings:  \b0 ( GET METHOD )\line\line Parameters :\line\line - driver_id\par
+- off\line\line\b 35- getRide_rate:  \b0 ( GET METHOD )\line\line Parameters :\line\line - uneaque_id\par
+- transfertype\par
+- taxi_type\par
+- timetypes\line\line\line\b 36- update_driver_pwd:\b0   ( GET METHOD )\line\line Parameters : \line\line - username\par
+- Password\line\line\line\b 37- set_ride_as_complete:  \b0 ( GET METHOD )\line\line Parameters : \line - book_id\line\line\b 38- fetch_driver_statistics:  \b0 ( GET METHOD )\line\line Parameters : \line\line - driver_id\line\line\line\b 39- flagged_drivers_call :  \b0 ( GET METHOD )\line\line\line\b 40- flagged_users_call :\b0  \b  \b0 ( GET METHOD )\line\line\b 41- update_driver_socket_status:    \b0 ( GET METHOD )\line\line Parameters : \line - driver_id\par
+- driver_statu\line\line\b 42- fetchDriverAppLanguage:  \b0\line\line\b 43- fetchUserAppLanguage:\b0\line\line\b 44- do_sign_up_ios:  \b0 ( GET METHOD )\b\line\b0\line Parameters : \line\line - name\par
+- username\par
+- email\par
+- mobile\par
+- password\par
+- isdevice\par
+- gender\par
+- dob\par
+- facebook_id\par
+- twitter_id\par
+- image  ( FILE )\line\line\line\b 45- load_trips_new:   \b0 ( GET METHOD )\line\line Parameters : \line - user_id\par
+- off\line\line\b 46- addDriverRating:  \b0  ( GET METHOD )\line\line Parameters :\line - driverId\par
+- starrate\par
+- MainUserName\par
+- user_id\par
+- token\line\line\b 47- near_Drivers :\b0\line\line\b 48- getCodePrecent:\b0   ( GET METHOD )\line\line Parameters :\line - code\par
+- user_id\line\line\b 49- CheckCode:  \b0 ( GET METHOD )\line\line Parameters : \line - userCode\par
+- user_id\line\line\b 50- noHaveCode:  \b0 ( GET METHOD )\b\line\b0\line Parameters: \line - user_id\line\line\b 51- load_trips_past:  \b0 ( POST METHOD )\line\line Parameters : \line\line - user_id\par
+- off\line\line\line\b 52- load_trips_upcomming:  \b0 ( POST METHOD )\line\line Parameters : \line - user_id\par
+- off\line\line\b 53- load_trips_limit_1:   \b0 ( GET METHOD )\line\line Parameters:\line\line - user_id\par
+- token\par
+- off\line\line\b 54- load_trips_Last_inserted:  \b0 ( POST METHOD )\line\line Parameters : \line - user_id\par
+- off\line\line\b 55- contact_us:   \b0 ( POST METHOD )\line\line Parameters: \line\line - user_id\par
+- token\line\line\b 56- load_trips_driver_limit_1 :  \b0 ( GET METHOD )\line\line Parameters:\line\line - DriverID\par
+- user_id\par
+- off\line\line\b 57- getRatingDriver:  \b0 ( GET METHOD )\line\line Parameters: \line - driver_id\par
+- token\line\line\line\b 58- addUserRating:   \b0 ( POST METHOD )\line\line Parameters:\line\line - userId\par
+- starrate\par
+- driver_id\par
+- token\line\line\b 59- calculateEarnAvrage:   \b0 ( GET METHOD )\line\line\lang1033\f1 Parameters:\line - driver_id\par
+- token\line\line\b 60- calculateToadyData:  \b0 ( GET METHOD )\line\line Parameters: \line - driver_id\par
+- token\line\line\b 61- uploadDocuments:   \b0 ( POST METHOD )\line\line Parameters: \line - driver_id\par
+- token\par
+- img1\par
+- img2\par
+- img3\par
+- img4\par
+- img5\line\line\b 62- selectDriverDocuments:  \b0 ( GET METHOD )\b\line\par
+Paramatere : \line\b0 - driver_id\par
+- token\par
+\par
+\b 63 - GettingAllDriverMessage:  \b0 ( GET METHOD )\b\line\line Paramaters:\line\lang9\b0\f0 - driver_id\par
+- token\line\line\b 64- contact_us_driver:   \b0 ( GET METHOD )\b\line\line Parameters: \line\b0 - driver_id\par
+- token\line\line\line\b 65- updateProfileImg:   \b0 ( POST METHOD )\b\line\line Parameters:\line\b0 - driver_id\par
+- img\par
+- token\line\line\b 66- checkCodeDriver:    \b0 ( GET METHOD )\b\line\line Parameters:\line\b0 - userCode\par
+- driver_id\line\line\line\b 67- noHaveCodeDriver:    \b0 ( GET METHOD )\b\line\line Parameters: \line\b0 - driver_id\line\line\line\b 68- loadOneTrip:   \b0 ( GET METHOD )\b\line\line Parameters:\line - \b0 tripId\line\line\line\b 69- updateStatus:   \b0 ( GET METHOD )\b\line\line Parameters:\line\b0 - driver_id\par
+- status\par
+- token\line\line\line\b 70- messageUs:  \b0 ( POST METHOD )\b\line\line Parameters:\line\b0 - driver_id\par
+- title\par
+- content\par
+- token\line\line\line\b 71- messageUsUser:  \b0 ( POST METHOD )\b\line\line Parametes: \line\b0 - user_id\par
+- title\par
+- content\line\line\line\b 72- personalCancelCaptain:  \b0 ( POST METHOD )\b\line\line Parameters: \line\b0 - driver_id\par
+- tripId\line\line\b 73- CheckCancelTrip:   \b0 ( POST METHOD )\b\line\line Parameters: \line\b0 - driver_id\par
+- tripId\line\line\line\b 74- lastUserTrip:  \b0 ( GET METHOD )\b\line\line Parameters:\line\b0 - user_id\line\line\line\b 75- selectRequiredTripsInRing3NotAssign:   \b0 ( GET METHOD )\b\line\line Parameters:\line\b0 - lat\par
+- lon\par
+- driver_id\line\line\b 76- selectRequiredTripsInRing3Continue:   \b0 ( GET METHOD )\b\line\line Parameters:\line\b0 - lat\par
+- lon\par
+- driver_id\line\line\b 77- do_updatelatlonUser:  \b0 ( GET USER )\b\line\line Parameters: \line\b0 - id\par
+- lat\par
+- lon\line\par
+\b 78- updateLocationUser :  \b0 ( GET METHOD )\line\line\b 79- load_uncomplete_driver:  \b0 ( GET METHOD )\b\line\line Parameters:\line\b0 - driver_id\par
+- user_id\par
+- off\line\line\line\b 80- allChatEvent:  \b0 ( POST METHOD )\b\par
+\par
+Parameters: \line\b0 - from_id\par
+- to_id\par
+- trip_id\par
+- driver_id\par
+- token\line\line\b 81- allChatNewEvent:   \b0 ( POST METHOD )\b\line\line Parameters: \line\b0 - from_id\par
+- to_id\par
+- lastChatId\par
+- trip_id\par
+- driver_id\par
+- token\line\line\line\b 82- saveChatTxt:   \b0 ( POST METHOD )\b\line\line Parameters :\line\b0 - from_id\par
+- to_id\par
+- sendData\par
+- type\par
+- trip_id\par
+- to_Name\par
+- senderType\par
+- token\line\line\b 83- chatMessages:  \b0 ( POST METHOD )  \b\line\line Parameters :\line\b0 - from_id\par
+- driver_id\par
+- token\line\line\line\line\par
+}
+ 

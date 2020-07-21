@@ -1,0 +1,385 @@
+{\rtf1\fbidis\ansi\ansicpg1256\deff0\deflang3073{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\ltrpar\sa200\sl276\slmult1\qc\lang9\ul\b\f0\fs48 JAKI APPLICATION APIs\par
+\pard\ltrpar\sa200\sl240\slmult1\ulnone\b0\fs28\line\b\i\fs44 Drivers\b0\i0\fs28\line\line 1- Change Password :\fs32\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/ChangePassword.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/ChangePassword.php}}}\ul\b\f0\fs48\par
+\ulnone\b0\fs28 Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - Password\par
+- UserID\par
+- token\line\line 2- \fs32 Driver accept trip :\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/DriverAcceptTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/DriverAcceptTrip.php}}}\f0\fs28\par
+\line Parameters: \line\fs24 - DriverID\par
+- TripID\par
+- token\par
+\par
+3- Driver Arrived : \line{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/DriverArrived.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/DriverArrived.php}}}\f0\fs24\line\line Parameters:\line - TripID\par
+- DriverID\par
+- token\fs28\line\line 4- Driver Cancel Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/DriverCancelTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/DriverCancelTrip.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- DriverID\par
+- token\line\line\line\fs28 5- Driver End Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/DriverEndTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/DriverEndTrip.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- drop_lat\par
+- drop_long\par
+- DriverID\par
+- token\par
+\par
+\par
+\fs28 6- Driver End Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/DriverEndTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/DriverEndTrip.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- token\line\line\line\fs28 7- Driver Start Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/DriverStartTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/DriverStartTrip.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- DriverID\par
+- token\par
+\par
+\par
+\fs28 8- Report Driver:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/ReportDriver.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/ReportDriver.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- UserID\par
+- Text\par
+- token\par
+\par
+\fs28 9- Update Driver City:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/UpdateDriverCity.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/UpdateDriverCity.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- CityID\par
+- token\fs28\par
+\par
+10- Update Driver Details:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/UpdateDriverDetails.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/UpdateDriverDetails.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripOptions\par
+- DriverID\par
+- token\par
+\par
+\fs28 11- Update Driver Locations:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/UpdateDriverLocations.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/UpdateDriverLocations.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- DriverLat\par
+- DriverLon\par
+- token\par
+\par
+\fs28 12- Update Driver Status:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/UpdateDriverStatus.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/UpdateDriverStatus.php}}}\f0\fs28\line\line Parameters: \line\fs24 - Status\par
+- DriverID\par
+- token\par
+\par
+\par
+\fs28 13- View Driver Completed Trips:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/ViewCompletedTrips.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/ViewCompletedTrips.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- token\par
+- date_from\par
+- date_to\fs28\par
+\par
+14- View Driver Current Trips:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/ViewCurrentTrips.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/ViewCurrentTrips.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- token\par
+\par
+\fs28 15- View Driver Details:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/ViewDriverDetails.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/ViewDriverDetails.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- token\par
+\par
+\fs28 16- View Pending Trips:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/ViewPendingTrips.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Drivers/ViewPendingTrips.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- token\line\line\b\i\fs44 General\b0\i0\fs24\line\line\fs28 17- Privacy & Policy:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/General/PrivacyPolicy.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/General/PrivacyPolicy.php}}}\f0\fs28\par
+\par
+18- View All Cities:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/General/ViewAllCity.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/General/ViewAllCity.php}}}\f0\fs28\line\line 19- View Banks:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/General/ViewBanks.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/General/ViewBanks.php}}}\f0\fs28\line\line 20- View Places Categories:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/General/ViewPlacesCats.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/General/ViewPlacesCats.php}}}\f0\fs28\line\line\line\b\i\fs44 Transportation Drivers\line\line\pard\ltrpar\sa200\sl240\slmult1\b0\i0\fs28 21- Change Password :\fs32\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/ChangePassword.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/ChangePassword.php}}}\ul\b\f0\fs48\par
+\ulnone\b0\fs28 Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - Password\par
+- UserID\par
+- token\line\line 22- \fs32 Driver accept trip :\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/DriverAcceptTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/DriverAcceptTrip.php}}}\f0\fs28\par
+\line Parameters: \line\fs24 - DriverID\par
+- TripID\par
+- token\par
+\par
+23- Driver Arrived : \line{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/DriverArrived.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/DriverArrived.php}}}\f0\fs24\line\line Parameters:\line - TripID\par
+- DriverID\par
+- token\fs28\line\line 24- Driver Cancel Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/DriverCancelTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/DriverCancelTrip.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- DriverID\par
+- token\line\line\line\fs28 25- Driver End Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/DriverEndTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/DriverEndTrip.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- drop_lat\par
+- drop_long\par
+- DriverID\par
+- token\par
+\par
+\par
+\fs28 26- Driver End Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/DriverEndTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/DriverEndTrip.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- token\line\line\line\fs28 27- Driver Start Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/DriverStartTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/DriverStartTrip.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- DriverID\par
+- token\par
+\par
+\par
+\fs28 28- Report Driver:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/ReportDriver.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/ReportDriver.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- UserID\par
+- Text\par
+- token\par
+\par
+\fs28 29- Update Driver City:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/UpdateDriverCity.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/UpdateDriverCity.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- CityID\par
+- token\fs28\par
+\par
+30- Update Driver Details:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/UpdateDriverDetails.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/UpdateDriverDetails.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripOptions\par
+- DriverID\par
+- token\par
+\par
+\fs28 31- Update Driver Locations:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/UpdateDriverLocations.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/UpdateDriverLocations.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- DriverLat\par
+- DriverLon\par
+- token\par
+\par
+\fs28 32- Update Driver Status:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/UpdateDriverStatus.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/UpdateDriverStatus.php}}}\f0\fs28\line\line Parameters: \line\fs24 - Status\par
+- DriverID\par
+- token\par
+\par
+\par
+\fs28 33- View Driver Completed Trips:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/ViewCompletedTrips.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/ViewCompletedTrips.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- token\par
+- date_from\par
+- date_to\fs28\par
+\par
+34- View Driver Current Trips:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/ViewCurrentTrips.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/ViewCurrentTrips.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- token\par
+\par
+\fs28 35- View Driver Details:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/ViewDriverDetails.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/ViewDriverDetails.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- token\par
+\par
+\fs28 36- View Pending Trips:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/ViewPendingTrips.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TransportationDrivers/ViewPendingTrips.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- token\line\fs28\par
+\par
+\b\i\fs44 Truck Drivers\line\line\pard\ltrpar\sa200\sl240\slmult1\b0\i0\fs28 37- Change Password :\fs32\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/ChangePassword.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/ChangePassword.php}}}\ul\b\f0\fs48\par
+\ulnone\b0\fs28 Parameters \fs32 : \line\pard\ltrpar\sl240\slmult1\fs24 - Password\par
+- UserID\par
+- token\line\line 38- \fs32 Driver accept trip :\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/DriverAcceptTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/DriverAcceptTrip.php}}}\f0\fs28\par
+\line Parameters: \line\fs24 - DriverID\par
+- TripID\par
+- token\par
+\par
+39- Driver Arrived : \line{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/DriverArrived.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/DriverArrived.php}}}\f0\fs24\line\line Parameters:\line - TripID\par
+- DriverID\par
+- token\fs28\line\line 40- Driver Cancel Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/DriverCancelTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/DriverCancelTrip.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- DriverID\par
+- token\line\line\line\fs28 41- Driver End Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/DriverEndTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/DriverEndTrip.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- drop_lat\par
+- drop_long\par
+- DriverID\par
+- token\par
+\par
+\par
+\fs28 42- Driver End Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/DriverEndTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/DriverEndTrip.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- token\line\line\line\fs28 43- Driver Start Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/DriverStartTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/DriverStartTrip.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- DriverID\par
+- token\par
+\par
+\par
+\fs28 44- Report Driver:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/ReportDriver.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/ReportDriver.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- UserID\par
+- Text\par
+- token\par
+\par
+\fs28 45- Update Driver City:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/UpdateDriverCity.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/UpdateDriverCity.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- CityID\par
+- token\fs28\par
+\par
+46- Update Driver Details:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/UpdateDriverDetails.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/UpdateDriverDetails.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripOptions\par
+- DriverID\par
+- token\par
+\par
+\fs28 47- Update Driver Locations:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/UpdateDriverLocations.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/UpdateDriverLocations.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- DriverLat\par
+- DriverLon\par
+- token\par
+\par
+\fs28 48- Update Driver Status:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/UpdateDriverStatus.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/UpdateDriverStatus.php}}}\f0\fs28\line\line Parameters: \line\fs24 - Status\par
+- DriverID\par
+- token\par
+\par
+\par
+\fs28 49- View Driver Completed Trips:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/ViewCompletedTrips.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/ViewCompletedTrips.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- token\par
+- date_from\par
+- date_to\fs28\par
+\par
+50- View Driver Current Trips:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/ViewCurrentTrips.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/ViewCurrentTrips.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- token\par
+\par
+\fs28 51- View Driver Details:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/ViewDriverDetails.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/ViewDriverDetails.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- token\par
+\par
+\fs28 52- View Pending Trips:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/ViewPendingTrips.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/TruckDrivers/ViewPendingTrips.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- token\line\line\line\b\i\fs44 Users\b0\i0\fs28\line\line 53- Accepted Driver Details:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/AcceptedDriverDetails.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/AcceptedDriverDetails.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- UserID\par
+- token\fs28\line\line\line 54- Accepted Transportation Driver Details:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/AcceptedTransportationDriversDetails.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/AcceptedTransportationDriversDetails.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- UserID\par
+- token\fs28\line\par
+\par
+55- Accepted Truck Driver Details:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/AcceptedTruckDriverDetails"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/AcceptedTruckDriverDetails}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- UserID\par
+- token\par
+\par
+\fs28 56- Cancel Transportation:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/CancelTransportation.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/CancelTransportation.php}}}\f0\fs28\line\line Parameters: \line\fs24 - UserID\par
+- token\par
+- TripID\line\line\fs28 57- Cancel Water Order:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/CancelWaterOrder.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/CancelWaterOrder.php}}}\f0\fs28\line\line Parameters: \line\fs24 - UserID\par
+- token\par
+- TripID\line\line\line\line\fs28 58- Cancel Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/CancelTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/CancelTrip.php}}}\f0\fs28\line\line Parameters: \line\fs24 - UserID\par
+- token\par
+- TripID\line\line\line\fs28 59- Car Type Prices :\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/CarTypePrices.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/CarTypePrices.php}}}\f0\fs28\line\line Parameters: \line\fs24 - UserID\par
+- token\line\line\line\line\fs28 60- Change Password :\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ChangePassword.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ChangePassword.php}}}\f0\fs28\line\line Parameters: \line\fs24 - UserID\par
+- token\par
+- Password\line\line\line\fs28 61- Forgot Password:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ForgetUserPassword.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ForgetUserPassword.php}}}\f0\fs28\line\line Parameters: \line\fs24 - Mobile\par
+- UserID\par
+- token\line\line\line\fs28 62- Categories Category Places:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/GetCatPlaces.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/GetCatPlaces.php}}}\f0\fs28\line\line Parameters: \line\fs24 - CatID\line\line\fs28 63- Get Cobone:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/GetCobone.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/GetCobone.php}}}\f0\fs28\line\line Parameters: \line\fs24 - Code\par
+- UserID\par
+- token\line\line\line\fs28 64- Get Transportation Status:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/GetTransportationStatus.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/GetTransportationStatus.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- UserID\par
+- token\line\line\line\fs28 65- Get Trip Cost:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/GetTripCost.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/GetTripCost.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- UserID\par
+- token\line\line\line\fs28 66- Get Trip Status:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/GetTripStatus.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/GetTripStatus.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- UserID\par
+- token\line\line\line\line\fs28 67- Get Water Order Status:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/GetWaterOrderStatus.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/GetWaterOrderStatus.php}}}\f0\fs28\line\line Parameters: \line\fs24 - TripID\par
+- UserID\par
+- token\fs28\line\line\line 68- New Transportation:    ( POST METHOD )\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/NewTransportation.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/NewTransportation.php}}}\f0\fs24\line\fs28\line Parameters: \line\fs24 - USERID\par
+- user_id\par
+- token\par
+- pickup_area\par
+- drop_area\par
+- taxi_type\par
+- taxi_id\par
+- promo_code\par
+- distance\par
+- approx_time\par
+- amount\par
+- pickup_lat\par
+- pickup_long\par
+- drop_lat\par
+- drop_long\par
+- payment_type\par
+- book_create_date_time\par
+- note\fs28\line\line 69- New Trip:    ( POST METHOD )\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/NewTransportation.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/NewTransportation.php}}}\f0\fs24\line\fs28\line Parameters: \line\fs24 - USERID\par
+- user_id\par
+- token\par
+- pickup_area\par
+- drop_area\par
+- taxi_type\par
+- taxi_id\par
+- promo_code\par
+- distance\par
+- approx_time\par
+- amount\par
+- pickup_lat\par
+- pickup_long\par
+- drop_lat\par
+- drop_long\par
+- payment_type\par
+- book_create_date_time\par
+- note\line\line\fs28 70- New Trip:    ( POST METHOD )\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/NewTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/NewTrip.php}}}\f0\fs24\line\fs28\line Parameters: \line\fs24 - USERID\par
+- user_id\par
+- token\par
+- pickup_area\par
+- drop_area\par
+- taxi_type\par
+- taxi_id\par
+- promo_code\par
+- distance\par
+- approx_time\par
+- amount\par
+- pickup_lat\par
+- pickup_long\par
+- drop_lat\par
+- drop_long\par
+- payment_type\par
+- book_create_date_time\par
+- note\fs28\par
+\line\line 71- New Water Order:    ( POST METHOD )\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/NewWaterOrder.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/NewWaterOrder.php}}}\f0\fs24\line\fs28\line Parameters: \line\fs24 - USERID\par
+- user_id\par
+- token\par
+- pickup_area\par
+- drop_area\par
+- taxi_type\par
+- taxi_id\par
+- promo_code\par
+- distance\par
+- approx_time\par
+- amount\par
+- pickup_lat\par
+- pickup_long\par
+- drop_lat\par
+- drop_long\par
+- payment_type\par
+- book_create_date_time\par
+- note\line\line\fs28 72- New User:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/NewUser.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/NewUser.php}}}\f0\fs28\line\line Parameters: \line\fs24 - Name\par
+- Password\par
+- Mobile\par
+- DeviceId\par
+- Gender\par
+- DriverGender\line\line\line\fs28 73- New User Message:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/NewUserMessage.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/NewUserMessage.php}}}\f0\fs28\line\line Parameters: \line\fs24 - UserID\par
+- title\par
+- msg\par
+- token\line\line\line\fs28 74- Rate Transportation:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/RateTransportation.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/RateTransportation.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverId\par
+- Rate\par
+- UserID\par
+- token\line\line\line\fs28 75- Rate Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/RateTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/RateTrip.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverId\par
+- Rate\par
+- UserID\par
+- token\line\line\line\fs28 76- Rate Water Order:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/RateWaterOrder.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/RateWaterOrder.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverId\par
+- Rate\par
+- UserID\par
+- token\line\line\line\fs28 77- Report User:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ReportUser.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ReportUser.php}}}\f0\fs28\line\line Parameters: \line\fs24 - DriverID\par
+- UserID\par
+- Text\par
+- token\line\line\line\fs28 78- Show Current Transportation:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowCurrentTransportation.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowCurrentTransportation\fs28 .php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- token\line\line\line\fs28 79- Show Current Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowCurrentTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowCurrentTri\fs28 p.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- token\line\line\par
+\fs28 80- Show Current Water Order:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowCurrentWaterOrder.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowCurrentWaterOrder.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- token\line\line\fs28 81- Show Near Drivers:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowNearDriver.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowNearDriver.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- token\fs28\line\line 82- Show Near Transportation Drivers:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowNearTransportationDriver.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowNearTransportationDriver.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- token\line\line\line\fs28 83- Show Near Water Drivers:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowNearWaterDriver.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowNearWaterDriver.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- token\line\line\fs28 84- Show Pending Transportation Order:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowPendigTransportationOrder.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowPendigTransportationOrder.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- token\line\line\line\fs28 85- Show Pending Trip:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowPendigTrip.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowPendigTrip.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- token\line\line\fs28 86- Show Pending Water Order:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowPendigWaterOrder.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ShowPendigWaterOrder.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- token\line\line\line\fs28 87- Trip Cost:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/TripCost.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/TripCost.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- LatFrom\par
+- LongFrom\par
+- LatTo\par
+- LongTO\par
+- CarType\par
+- UserID\par
+- token\line\line\line\fs28 88- Update Device ID:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/UpdateDeviceID.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/UpdateDeviceID.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- DeviceID\par
+- token\line\line\fs28 89- Update Device Type:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/UpdateDeviceType.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/UpdateDeviceType.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- device_type\par
+- token\line\line\line\fs28 90- Update Last Login:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/UpdateLastLogin.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/UpdateLastLogin.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- token\line\line\fs28 91- Update User City:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/UpdateUserCity.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/UpdateUserCity.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- CityID\par
+- token\line\line\line\fs28 92- Update User Details:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/UpdateUserDetails.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/UpdateUserDetails.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- Name\par
+- Mobile\par
+- Email\par
+- Gender\par
+- City\par
+- DriverGender\par
+- payment_types\line\line\line\fs28 93- User Login:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/UserLogin.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/UserLogin.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- Password\par
+- Mobile\par
+- Devicetype\par
+- Deviceid\par
+- Lang\par
+\par
+\fs28 94- User Messages:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/UserMessages.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/UserMessages.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\line - token\line\line\line\fs28 95- View User Transportations:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewAllUserTransportations.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewAllUserTransportations\fs28 .php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\line - token\line\line\line\fs28 96- View All User Trips:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewAllUserTrips.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewAllUserTr\fs28 ips.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\line - token\line\line\line\fs28 97- View All User Water Orders:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewAllUserWaterOrder.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewAllUserWaterOrder.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\line - token\line\line\line\fs28 98- View Completed Transportations:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewCompletedTransportations.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewCompletedTransportations.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- token\par
+- date_from\par
+- date_to\line\line\line\fs28 99- View Completed Trips:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewCompletedTrips.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewCompletedTrips.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- token\par
+- date_from\par
+- date_to\line\line\line\fs28 100- View Completed Water Orders:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewCompletedWaterOrders.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewCompletedWaterOrders.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- token\par
+- date_from\par
+- date_to\line\line\line\fs28 101- View PromoCode:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewPromoCode.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewPromoCode.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- Code\par
+- UserID\par
+- token\line\fs28\line\line 102- View User Details:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewUserDetails.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewUserDetails.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- token\line\line\line\fs28 103- View User Code:\line\fs24{\field{\*\fldinst{HYPERLINK "http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewUserCode.php"}}{\fldrslt{\ul\cf1 http://jaki-taxi.com/admin/LatestApi/RestFul/Users/ViewUserCode.php}}}\f0\fs28\line\line Parameters: \fs24\par
+- UserID\par
+- token\line\fs28\line\pard\ltrpar\sa200\sl276\slmult1\qc\ul\b\fs48\line\line\par
+}
+ 

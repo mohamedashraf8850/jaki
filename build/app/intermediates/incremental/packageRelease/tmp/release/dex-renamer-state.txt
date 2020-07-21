@@ -1,0 +1,4 @@
+#Sat Mar 28 21:38:56 EET 2020
+base.0=C\:\\Users\\EMA\\Desktop\\go taxi\\Gaki\\jaki_kapten\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
